@@ -1,0 +1,99 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f6f8;
+  color: #203040;
+}
+
+header {
+  background: #087f8c;
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 8px;
+}
+
+main {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.card, .panel {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #00000010;
+}
+
+.card p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #087f8c;
+}
+
+.panel {
+  margin-top: 18px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 11px;
+  margin-top: 6px;
+  border: 1px solid #cbd5df;
+  border-radius: 6px;
+}
+
+button {
+  background: #087f8c;
+  color: white;
+  border: 0;
+  padding: 11px 16px;
+  margin-top: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.referral {
+  border: 1px solid #d7e0e6;
+  padding: 14px;
+  margin-top: 12px;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.overdue {
+  color: #b42318;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  color: #586675;
+}
+
+@media (max-width: 550px) {
+  .summary {
+    grid-template-columns: 1fr;
+  }
+}
