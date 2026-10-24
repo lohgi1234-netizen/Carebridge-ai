@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareBridge AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>CareBridge AI</h1>
+    <p>Healthcare Referral & Follow-Up Tracker</p>
+  </header>
+
+  <main>
+    <section class="summary">
+      <div class="card">
+        <h3>Total Referrals</h3>
+        <p id="total">0</p>
+      </div>
+      <div class="card">
+        <h3>Pending</h3>
+        <p id="pending">0</p>
+      </div>
+      <div class="card">
+        <h3>Completed</h3>
+        <p id="completed">0</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Register a Referral</h2>
+      <form id="referralForm">
+        <label>Patient reference ID</label>
+        <input id="patient" required placeholder="Example: DEMO001">
+
+        <label>Health service required</label>
+        <input id="service" required placeholder="Example: Primary health centre">
+
+        <label>Follow-up date</label>
+        <input id="date" type="date" required>
+
+        <button type="submit">Add Referral</button>
+      </form>
+      <p id="message" role="status"></p>
+    </section>
+
+    <section class="panel">
+      <h2>Referral Records</h2>
+      <p id="empty">No referrals added yet.</p>
+      <div id="referralList"></div>
+    </section>
+  </main>
+
+  <footer>CareBridge AI | Demonstration using synthetic data only</footer>
+  <script src="script.js"></script>
+</body>
+</html>
