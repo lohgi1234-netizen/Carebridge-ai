@@ -1,2 +1,30 @@
-# Carebridge-ai
+Carebridge-AI
 An offline-first healthcare referral and follow-up platform.
+
+CareBridge AI
+
+Project Overview
+CareBridge AI is a proposed offline-first healthcare referral and follow-up platform designed to help community health workers coordinate patient referrals and follow-up visits.
+
+Problem
+Patients may miss follow-up visits, while health workers can face difficulties tracking pending referrals and confirming completion.
+
+Key Features
+- Register and manage healthcare referrals
+- Track pending and completed referrals
+- Identify overdue follow-ups
+- Search for nearby health services
+- Support Tamil and English
+- Store records offline and synchronize when connectivity returns
+
+Technology Stack
+The planned prototype uses HTML, CSS and JavaScript for the interface, with a Python backend and SQLite database.
+
+Privacy and Safety
+The demonstration uses synthetic patient data. The application supports care coordination and does not provide medical diagnoses.
+
+Project Status
+Prototype under development. Features will be documented as they are implemented and tested.
+
+## Setup and Testing
+Setup instructions, architecture documentation, sample data and test cases will be added as the prototype develops.
